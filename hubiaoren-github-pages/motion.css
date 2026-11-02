@@ -1,0 +1,28 @@
+/* Quiet scroll and interaction accents. No content is hidden by default. */
+.reading-progress{position:fixed;inset:0 0 auto;height:3px;z-index:90;pointer-events:none;background:linear-gradient(90deg,#355e4d 0%,#708a60 65%,#b59958 100%);transform:scaleX(0);transform-origin:left;opacity:.85}
+body.recording .reading-progress{display:none}
+@media(prefers-reduced-motion:no-preference){
+  .brand-hero .brand-sheet{translate:0 calc(var(--hero-drift,0px) * -.5)}
+  .brand-hero .paper-back{translate:0 calc(var(--hero-drift,0px) * .4)}
+  .brand-hero .brand-note{translate:0 calc(var(--hero-drift,0px) * -1)}
+  .brand-hero .orbit-one{translate:0 calc(var(--hero-drift,0px) * .7)}
+  .brand-hero .orbit-two{translate:0 calc(var(--hero-drift,0px) * -.3)}
+  .site-header nav a{position:relative}
+  .site-header nav a::after{content:"";position:absolute;left:0;right:0;bottom:-7px;height:1px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .3s ease}
+  .site-header nav a:hover::after,.site-header nav a:focus-visible::after{transform:scaleX(1)}
+  .directory-card{transition:translate .35s ease,box-shadow .35s ease,border-color .35s ease,background .35s ease}
+  .directory-bottom b,.scenario-cta>span,.button>span,.source-entry>span:last-child{display:inline-block;transition:translate .3s ease}
+  .source-entry{transition:background .25s ease}
+  .source-entry:hover{background:#e9eee455}
+  .directory-card:focus-visible .directory-bottom b,.scenario-cta:focus-visible>span,.button:focus-visible>span{translate:3px -2px}
+}
+@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+  .directory-card:hover{transform:none;translate:0 -5px;box-shadow:0 12px 24px #203b320c}
+  .directory-card:hover .directory-bottom b,.scenario-cta:hover>span,.source-entry:hover>span:last-child{translate:3px -2px}
+  .button:hover>span{translate:2px -1px}
+}
+@media(prefers-reduced-motion:reduce){
+  .brand-hero .brand-sheet,.brand-hero .paper-back,.brand-hero .brand-note,.brand-hero .orbit{translate:none!important}
+  .reading-progress{display:none}
+}
+@media print{.reading-progress{display:none}}
