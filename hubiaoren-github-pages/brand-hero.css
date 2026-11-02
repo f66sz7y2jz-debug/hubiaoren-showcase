@@ -1,0 +1,33 @@
+/* Homepage identity: the supplied panda mark, with the site's paper-and-ink palette. */
+.brand-hero{height:470px}
+.brand-hero .paper-back{width:376px;height:367px;background:#eaece0;transform:rotate(-9deg) translate(-16px,-12px)}
+.brand-sheet{width:397px;height:380px;position:relative;display:flex;flex-direction:column;background:linear-gradient(145deg,#fffdf4,#f0f0e4);border:1px solid #d9d9ca;box-shadow:0 24px 50px #3a4d3210;transform:rotate(2deg);padding:24px 27px 18px}
+.brand-sheet-heading{display:flex;align-items:center;justify-content:space-between}
+.brand-sheet-heading strong{display:block;font:500 29px/1.2 var(--serif);letter-spacing:4px}
+.brand-sheet-heading small{display:block;font-size:9px;letter-spacing:2px;color:#86907c;margin-top:8px}
+.brand-seal{font:11px/1.4 var(--serif);color:#987b47;border:1px solid #bfa573;padding:5px 6px}
+.hero-panda{display:block;object-fit:contain;width:232px;height:232px;margin:8px auto 10px;transform:rotate(-2deg)}
+.brand-sheet-caption{display:flex;justify-content:space-between;gap:10px;margin-top:auto;padding-top:12px;border-top:1px solid #dcdccf;font-size:9px;letter-spacing:1px;color:#87907d;white-space:nowrap}
+.brand-hero .brand-note{bottom:15px;right:0;width:286px;padding:14px 16px;gap:12px}
+.brand-note .note-icon{color:#9b7f43;background:#f4efdf;flex-shrink:0;font:32px/44px var(--serif)}
+.brand-note strong{font-size:13px;letter-spacing:.5px}
+.brand-note div>span{font-size:9px;white-space:nowrap}
+.brand-hero .route{bottom:0}
+@media(max-width:900px) and (min-width:651px){.brand-hero .brand-note{right:-12px}}
+@media(max-width:650px){
+  .brand-hero{height:395px;margin-top:12px;transform:scale(.86)}
+  .brand-hero .paper-back{width:310px;height:330px;transform:rotate(-8deg) translate(-10px,-9px)}
+  .brand-sheet{width:330px;height:346px;padding:20px 23px 17px;flex-shrink:0}
+  .brand-sheet-heading strong{font-size:26px}
+  .brand-sheet-heading small{font-size:9px;letter-spacing:1.4px}
+  .hero-panda{width:211px;height:211px;margin:5px auto 7px}
+  .brand-sheet-caption{display:none}
+  .brand-hero .brand-note{width:260px;right:-4px;bottom:-14px;padding:12px 14px}
+  .brand-note strong{font-size:12px}
+  .brand-note small{font-size:8px;letter-spacing:.5px}
+  .brand-note div>span{font-size:8px}
+  .brand-hero .art-coordinate{top:-15px;right:0;font-size:8px;letter-spacing:1.7px}
+  .brand-hero .route{bottom:-43px;left:0;gap:9px}
+  .brand-hero .route-line{width:60px}
+}
+@media(max-width:359px){.brand-hero{transform:scale(.77);margin-inline:-12px}}
