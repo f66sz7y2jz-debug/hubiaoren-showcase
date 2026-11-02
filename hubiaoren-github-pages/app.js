@@ -42,7 +42,7 @@
     ];
     let content = '';
     if (state.stage === 0) {
-      content = `<h3>${headings[0]}</h3><p class="stage-lead">晴屿茶具 · 菲律宾渠道合作<br>经销商希望借新订单扩大销售，并向下游商家转许可。</p><div class="story-label">企业负责人 <span class="pill">叙事设定</span></div><blockquote class="story-quote">“补充协议已经签了，<br>可以上线电商，<br>也能向下游商家转许可了吗？”</blockquote><div class="story-context"><span class="pill">销售渠道</span><span class="pill">商标使用</span><span class="pill">履行与记录</span></div><p class="story-bottom">真正影响决策的，是<strong>合同约定了什么、实际做了什么，以及档案能证明什么。</strong></p>`;
+      content = `<h3>${headings[0]}</h3><p class="stage-lead">晴屿（虚构茶具品牌）· 菲律宾渠道合作<br>经销商希望借新订单扩大销售，并向下游商家转许可。</p><div class="story-label">企业负责人 <span class="pill">叙事设定</span></div><blockquote class="story-quote">“补充协议已经签了，<br>可以上线电商，<br>也能向下游商家转许可了吗？”</blockquote><div class="story-context"><span class="pill">销售渠道</span><span class="pill">商标使用</span><span class="pill">履行与记录</span></div><p class="story-bottom">真正影响决策的，是<strong>合同约定了什么、实际做了什么，以及档案能证明什么。</strong></p>`;
     } else if (state.stage === 1) {
       content = `<h3>${headings[1]}</h3><p class="stage-lead">2026 年 9 月 1 日，双方签署 SW801 许可协议。<br>把四条约定读完整，才知道新计划能否接着做。</p><div class="clause-list">${[
         ['一', '菲律宾实体零售渠道 · “晴屿”茶具'],

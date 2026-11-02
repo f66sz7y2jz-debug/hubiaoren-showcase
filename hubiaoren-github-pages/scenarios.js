@@ -8,12 +8,12 @@
     <div class="case-directory">
       <a class="directory-card" href="#coffee"><span class="directory-no">01</span><span class="directory-type">商标使用与侵权 · 新加坡</span><h3>这批 G7 咖啡，<br>可以进口销售吗？</h3><p>参考中国真实案例，分析同类问题在新加坡应如何判断。</p><span class="directory-bottom">判例改编 · 可切换证据条件 <b>↗</b></span></a>
       <a class="directory-card" href="#wine"><span class="directory-no">02</span><span class="directory-type">商标注册与布局 · 菲律宾</span><h3>“红高粱”出海，<br>第一步该怎么走？</h3><p>从一项业务计划，形成申请路径、材料清单与使用安排。</p><span class="directory-bottom">企业情境设定 · 可生成清单 <b>↗</b></span></a>
-      <a class="directory-card" href="#demo"><span class="directory-no">03</span><span class="directory-type">品牌许可与管理 · 菲律宾</span><h3>协议补签了，<br>新订单就能推进吗？</h3><p>根据晴屿项目的合同材料，查看补充协议带来的变化。</p><span class="directory-bottom">合成案例 · 4 分钟记录回放 <b>↗</b></span></a>
+      <a class="directory-card" href="#demo"><span class="directory-no">03</span><span class="directory-type">品牌许可与管理 · 菲律宾</span><h3>协议补签了，<br>新订单就能推进吗？</h3><p>以虚构茶具品牌“晴屿”为例，查看补充协议如何影响经营安排。</p><span class="directory-bottom">合成案例 · 4 分钟记录回放 <b>↗</b></span></a>
     </div>
-    <div class="guide-note"><span>浏览方式</span><p>选择感兴趣的案例，可以切换证据条件、查看法律依据，或跟随晴屿的四分钟演示了解完整过程。</p></div>
+    <div class="guide-note"><span>浏览方式</span><p>选择感兴趣的案例，可以切换证据条件、查看法律依据，或通过四分钟品牌许可演示了解完整过程。</p></div>
   </section>
 
-  <nav class="case-jumpbar" aria-label="案例快速切换"><a href="#cases">案例目录</a><a href="#coffee">01 咖啡进口</a><a href="#wine">02 红高粱注册</a><a href="#demo">03 晴屿许可</a></nav>
+  <nav class="case-jumpbar" aria-label="案例快速切换"><a href="#cases">案例目录</a><a href="#coffee">01 咖啡进口</a><a href="#wine">02 红高粱注册</a><a href="#demo">03 品牌许可</a></nav>
   <section id="coffee" class="case-chapter coffee-section">
     <div class="section-wrap">
       <div class="case-masthead"><span>案例 01</span><span>商标使用及侵权情景</span><span class="origin-badge">参考真实案例 · 改编情境</span></div>
