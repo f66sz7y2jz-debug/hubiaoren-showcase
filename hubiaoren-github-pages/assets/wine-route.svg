@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" role="img" aria-labelledby="title desc">
+  <title id="title">酒类品牌进入菲律宾</title>
+  <desc id="desc">原创酒瓶、红高粱穗和从中国到菲律宾的路线示意，不代表任何真实品牌包装。</desc>
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#264e40"/><stop offset=".3" stop-color="#63816a"/><stop offset=".65" stop-color="#3c644f"/><stop offset="1" stop-color="#204536"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f1df"/><stop offset="1" stop-color="#e1dec8"/></linearGradient>
+    <radialGradient id="shadow"><stop stop-color="#53614a" stop-opacity=".14"/><stop offset="1" stop-color="#53614a" stop-opacity="0"/></radialGradient>
+  </defs>
+  <ellipse cx="271" cy="249" rx="167" ry="22" fill="url(#shadow)"/>
+  <ellipse cx="257" cy="150" rx="203" ry="114" fill="none" stroke="#e2e3d7" transform="rotate(-15 257 150)"/>
+  <g transform="rotate(7 341 176)">
+    <path d="M309 102h94v141h-94z" fill="#ebeada" stroke="#cfd3c2"/>
+    <path d="M319 113h74v118h-74z" fill="none" stroke="#d4d8c8"/>
+    <circle cx="356" cy="149" r="17" fill="none" stroke="#a6b398"/>
+    <path d="m349 149 5 5 9-11" fill="none" stroke="#758f67" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M330 185h51m-51 9h42m-42 9h51m-51 9h29" stroke="#bbc5ae" stroke-width="1.2"/>
+  </g>
+  <g transform="translate(-7 0)">
+    <path d="M226 45h34v49c0 12 30 19 30 42v103c0 9-17 15-47 15s-47-6-47-15V136c0-23 30-30 30-42z" fill="url(#glass)" stroke="#355944" stroke-linejoin="round"/>
+    <path d="M226 41h34v24h-34z" fill="#b3a071" stroke="#9f926a"/>
+    <path d="M230 45v16m5-16v16m5-16v16m5-16v16m5-16v16m5-16v16" stroke="#d9cba5" stroke-width="1"/>
+    <path d="M231 78v19c0 16-23 19-25 41v88" fill="none" stroke="#9cae8d" stroke-opacity=".45" stroke-width="3" stroke-linecap="round"/>
+    <path d="M207 137q36-4 72 0v75q-36 6-72 0z" fill="url(#paper)"/>
+    <path d="M213 144q30-3 60 0v61q-30 5-60 0z" fill="none" stroke="#b9b79a"/>
+    <text x="243" y="168" text-anchor="middle" fill="#355e4d" font-family="Georgia,serif" font-size="13" letter-spacing="2">BRAND</text>
+    <path d="M230 179h26" stroke="#a4ad8e"/>
+    <path d="M235 190h16m-12 5h8" stroke="#b7b99b"/>
+    <path d="M209 237q34 8 68 0" fill="none" stroke="#789375" stroke-opacity=".5"/>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M155 249c-3-58-16-105-25-152m33 155c1-56 4-111 8-152" fill="none" stroke="#9fa88b" stroke-width="1.7"/>
+    <path d="M154 225c-25-16-32-34-39-55 24 14 34 31 39 55m5 11c21-20 27-40 27-57-16 15-22 29-27 57" fill="#aab79b" opacity=".75"/>
+    <path d="M146 187c-18-12-21-24-26-38 15 9 22 21 26 38" fill="#bdc4aa"/>
+    <g fill="#ab745b" stroke="#b48262" stroke-width=".65">
+      <ellipse cx="127" cy="84" rx="4" ry="6" transform="rotate(-12 127 84)"/>
+      <ellipse cx="124" cy="96" rx="4" ry="6" transform="rotate(-30 124 96)"/>
+      <ellipse cx="134" cy="94" rx="4" ry="6" transform="rotate(17 134 94)"/>
+      <ellipse cx="121" cy="108" rx="4" ry="6" transform="rotate(-40 121 108)"/>
+      <ellipse cx="131" cy="106" rx="4" ry="6" transform="rotate(-13 131 106)"/>
+      <ellipse cx="141" cy="106" rx="4" ry="6" transform="rotate(20 141 106)"/>
+      <ellipse cx="122" cy="120" rx="4" ry="6" transform="rotate(-35 122 120)"/>
+      <ellipse cx="133" cy="119" rx="4" ry="6" transform="rotate(-10 133 119)"/>
+      <ellipse cx="144" cy="120" rx="4" ry="6" transform="rotate(20 144 120)"/>
+      <ellipse cx="128" cy="132" rx="4" ry="6" transform="rotate(-23 128 132)"/>
+      <ellipse cx="140" cy="132" rx="4" ry="6" transform="rotate(15 140 132)"/>
+    </g>
+    <g fill="#bd9171" stroke="#b89372" stroke-width=".65">
+      <ellipse cx="173" cy="83" rx="3.5" ry="5.5" transform="rotate(10 173 83)"/>
+      <ellipse cx="166" cy="94" rx="3.5" ry="5.5" transform="rotate(-20 166 94)"/>
+      <ellipse cx="178" cy="94" rx="3.5" ry="5.5" transform="rotate(24 178 94)"/>
+      <ellipse cx="160" cy="105" rx="3.5" ry="5.5" transform="rotate(-30 160 105)"/>
+      <ellipse cx="171" cy="106" rx="3.5" ry="5.5"/>
+      <ellipse cx="182" cy="107" rx="3.5" ry="5.5" transform="rotate(25 182 107)"/>
+      <ellipse cx="159" cy="117" rx="3.5" ry="5.5" transform="rotate(-25 159 117)"/>
+      <ellipse cx="170" cy="118" rx="3.5" ry="5.5"/>
+      <ellipse cx="181" cy="119" rx="3.5" ry="5.5" transform="rotate(25 181 119)"/>
+      <ellipse cx="162" cy="129" rx="3.5" ry="5.5" transform="rotate(-20 162 129)"/>
+      <ellipse cx="174" cy="130" rx="3.5" ry="5.5" transform="rotate(15 174 130)"/>
+    </g>
+  </g>
+  <path d="M116 281h290" stroke="#d8ddce"/>
+  <path d="M179 281h156" stroke="#809471" stroke-dasharray="3 5"/>
+  <circle cx="169" cy="281" r="3" fill="#a9864a"/>
+  <circle cx="346" cy="281" r="3" fill="#355e4d"/>
+  <path d="m331 277 5 4-5 4" fill="none" stroke="#809471"/>
+  <text x="144" y="302" text-anchor="middle" fill="#78866e" font-family="-apple-system,Arial,sans-serif" font-size="9" letter-spacing="1.5">CHINA</text>
+  <text x="371" y="302" text-anchor="middle" fill="#78866e" font-family="-apple-system,Arial,sans-serif" font-size="9" letter-spacing="1.5">PHILIPPINES</text>
+</svg>
