@@ -1,0 +1,247 @@
+/* Shared shape and readable type system for the public showcase. */
+:root{--ink:#203b32;--muted:#586653;--text-body:#455744;--text-secondary:#586653;--radius-panel:22px;--radius-card:18px;--radius-control:11px;--radius-tag:7px}
+body{font-size:16px;line-height:1.65}
+/* Use the same corner hierarchy on every chapter. Full-bleed sections stay flat. */
+.site-header,.theater,.evidence-lab,.registration-planner,.maintenance-panel,dialog{border-radius:var(--radius-panel)}
+.directory-card,.relationship-sheet,.search-route,.conditional-result,.planner-result,.category-note,.comparison-scroll{border-radius:var(--radius-card)}
+.button,.nav-system,.evidence-controls select,.material-card,.clause-button,.check-row,.action-card,.update-banner,.floating-note,.actor-token,.icon-button,.dialog-close,.evidence-reason{border-radius:var(--radius-control)}
+.pill,.status-tag,.simulation-badge,.search-chips span,.source-tags span,.summary-label,.source-kind,.file-symbol,.subtitle-tag{border-radius:var(--radius-tag)}
+.brand-sheet,.brand-hero .paper-back{border-radius:15px}
+.brand-hero .brand-note{border-radius:15px}
+.comparison-scroll{border:1px solid #ccd5c2;background:#f8faf3}
+.case-comparison th:first-child{padding-left:18px}
+.case-comparison tbody tr:last-child>*{border-bottom:0}
+.directory-card{padding:30px;min-width:0}
+.directory-no{font-size:44px;color:#657756;top:25px;right:24px;opacity:.8}
+.directory-type{max-width:calc(100% - 54px);min-height:24px;letter-spacing:.4px}
+.directory-card h3{margin-top:22px}
+.directory-card p{max-width:none}
+.directory-bottom{margin-top:auto;padding-top:18px;min-height:64px;align-items:center}
+.directory-card p{margin-bottom:23px}
+/* Readable body copy and supporting information, including mobile overrides. */
+.hero-description,.opening-description,.case-text>p:not(.eyebrow),.rule-strip p,.lab-intro,.conditional-result>p,.planner-result>p,.action-brief>div>p:not(.eyebrow),.search-route>p,.filing-options p,.filing-options ul,.maintenance-intro>p:not(.eyebrow),.approach-grid p,.source-intro>p:not(.eyebrow){font-size:16px;line-height:1.95;color:var(--text-body)}
+.directory-card p,.relationship-row p,.brief-grid p,.action-brief li span,.process-steps p,.generated-tasks,.category-note p,.maintenance-table small,.guide-note,.case-comparison{font-size:15px;line-height:1.9;color:var(--text-body)}
+.case-illustration figcaption,.provenance-line,.lab-footnote,.maintenance-note,.planner-actions p,.source-group .source-entry small,.source-entry small,.closing>p:last-child,.site-footer,.demo-note{font-size:13px;line-height:1.85;color:var(--text-secondary)}
+.source-boundary{font-size:13px!important;line-height:1.85!important;color:var(--text-secondary)!important}
+.eyebrow,.hero .eyebrow,.directory-type,.directory-bottom,.case-masthead,.origin-badge,.business-question>span,.fact-ribbon small,.relationship-connector,.rule-number,.simulation-badge,.result-kicker,.brief-grid article>span,.feature-no,.search-chips span,.source-tags span,.intro-band>span:first-child,.intro-end,.hero-footnote{font-size:12px;line-height:1.8;color:var(--text-secondary);letter-spacing:.6px}
+.directory-type,.directory-bottom,.case-masthead,.fact-ribbon small,.rule-number,.feature-no,.result-kicker{font-size:13px}
+.relationship-row strong,.action-brief li strong,.category-note>strong{font-size:16px;line-height:1.7;color:var(--ink)}
+.relationship-connector{margin-left:21px;padding-left:37px}
+.case-comparison thead,.case-comparison tbody th{font-size:14px;color:var(--text-body)}
+.case-comparison td{color:var(--text-body)}
+.case-comparison th,.case-comparison td{padding:18px 20px}
+.condition-trace>div,.condition-trace strong,.maintenance-table>div>span{font-size:14px;line-height:1.75;color:var(--text-body)}
+.maintenance-table>div{grid-template-columns:100px 1fr}
+.process-steps{gap:22px}
+.process-steps h4{font-size:21px;line-height:1.5}
+.process-steps li>span{color:#637653}
+.case-masthead{flex-wrap:wrap;gap:12px 20px}
+.origin-badge{white-space:normal}
+.case-opening,.case-split,.action-brief{gap:48px}
+.fact-ribbon strong{font-size:22px}
+.section-heading>p{font-size:19px;color:var(--text-secondary)}
+.section-heading{gap:30px}
+/* Navigation and controls retain a comfortable, consistent hit area. */
+.site-header nav{font-size:15px;color:var(--text-body)}
+.button,.hero-actions .hero-replay,.text-link,.scenario-cta,.inline-source,.quiet-button{font-size:14px;line-height:1.7}
+.button{min-height:48px;padding-inline:22px}
+.inline-source,.quiet-button{min-height:40px;align-items:center;color:#355d3d}
+.hero-actions{flex-wrap:wrap;gap:20px}
+.hero-actions .hero-replay{width:auto;min-height:44px}
+.evidence-controls>label{font-size:14px;line-height:1.8;color:var(--text-body)}
+.lab-grid>*,.planner-grid>*,.evidence-controls{min-width:0}
+.evidence-controls select{max-width:100%;appearance:none;-webkit-appearance:none;background-image:linear-gradient(45deg,transparent 50%,#586653 50%),linear-gradient(135deg,#586653 50%,transparent 50%);background-position:calc(100% - 19px) 50%,calc(100% - 14px) 50%;background-size:5px 5px;background-repeat:no-repeat}
+.evidence-controls select{font-size:16px;line-height:1.6;min-height:50px;padding:12px 34px 12px 14px}
+.evidence-controls .checkbox-control{font-size:14px}
+.checkbox-control input{width:18px;height:18px;margin-top:4px}
+.planner-actions .button{font-size:14px;min-height:48px}
+.case-jumpbar{font-size:14px;gap:30px;padding:12px 20px;color:#3e5d3c}
+.case-jumpbar a{min-height:32px;display:flex;align-items:center}
+.case-jumpbar a:first-child{font-size:13px;color:var(--text-secondary)}
+.intro-band{font-size:14px;gap:20px;line-height:1.8;color:var(--text-body)}
+.intro-band p{flex-wrap:wrap;gap:12px 20px}
+.source-group summary{font-size:16px;line-height:1.8}
+.source-group .source-entry strong,.source-entry strong{font-size:15px;line-height:1.75;color:var(--ink)}
+.source-entry>div{min-width:0}
+.source-entry{gap:14px;border-radius:10px}
+.source-entry>span:last-child,.site-footer a,.site-footer>span{color:#4a6644}
+.site-footer>span{font-size:12px}
+.site-footer{flex-wrap:wrap}
+.source-section{gap:55px}
+/* The brand illustration keeps its proportions; explanatory text is darker. */
+.brand-sheet-heading small,.brand-sheet-caption,.brand-hero .art-coordinate,.brand-hero .route,.brand-hero .route small{color:#59684f;font-size:11px;letter-spacing:.7px}
+.brand-sheet-caption{font-size:10px}
+.brand-hero .brand-note small{font-size:11px;color:#59684f;letter-spacing:.3px}
+.brand-note strong{font-size:15px;color:var(--ink)}
+.brand-note div>span{font-size:10px;color:#59684f}
+.brand-hero .brand-note{width:302px;padding:14px;bottom:5px}
+/* The recorded case is a separate reading surface, not miniature text. */
+.project-identity strong{font-size:16px;line-height:1.6}
+.project-identity small{font-size:12px;color:#d5e3cd;letter-spacing:.4px}
+.replay-badge{font-size:12px;color:#e1ebda;line-height:1.6}
+.chapter{font-size:14px;padding:17px 10px;min-height:52px;color:#586b50}
+.chapter>span{font-size:12px;opacity:1}
+.chapter-nav{overflow-x:auto;scrollbar-width:thin}
+.workspace{grid-template-columns:minmax(220px,22%) minmax(0,47%) minmax(0,31%);min-height:590px}
+.analysis-panel{padding:28px}
+.material-panel,.evidence-panel{padding:25px 20px}
+.panel-label{font-size:14px;color:#425b3f;gap:8px;flex-wrap:wrap}
+.panel-label>span{font-size:10px;color:#65745e}
+.material-card{padding:14px 12px;gap:9px}
+.material-card>span:last-child{min-width:0}
+.material-card strong{font-size:14px;line-height:1.65}
+.material-card small{font-size:12px;line-height:1.65;color:#5b6b52}
+.material-card.locked{opacity:1;background:#f0f1e9;color:#586653;border-color:#bcc7b0}
+.material-card.locked .file-symbol{color:#68755e;background:#e5e9dd}
+.file-symbol{font-size:18px}
+.material-context{margin-top:24px}
+.material-context>span,.material-context p,.original-record{font-size:12px;line-height:1.85;color:#5b6b52}
+.original-record{min-height:40px;align-items:center}
+.analysis-header{gap:12px;flex-wrap:wrap}
+.analysis-header .eyebrow,.summary-label,.story-label,.pill,.source-kind,.evidence-date,.evidence-note,.source-open,.update-banner,.update-dates,.small-explanation,.action-card button,.result-line,.evidence-reason{font-size:12px;line-height:1.8;color:var(--text-secondary);letter-spacing:.3px}
+.stage-content h3{font-size:29px;line-height:1.5}
+.stage-lead,.story-bottom,.story-bottom strong{font-size:15px;line-height:1.9;color:var(--text-body)}
+.story-quote{font-size:26px;line-height:1.7;color:#314e35}
+.story-context{flex-wrap:wrap}
+.clause-button{font-size:14px;line-height:1.75;padding:15px 12px;color:#3c5538;min-height:50px}
+.clause-button>span:first-child{font-size:18px;color:#586e49}
+.check-row{grid-template-columns:96px minmax(0,1fr);padding:13px 12px;gap:5px 12px;align-items:start}
+.check-row .check-name{font-size:13px;line-height:1.75;color:#53664b}
+.check-row .check-value{font-size:14px;line-height:1.75;color:#304c31}
+.check-row .status-tag{font-size:12px;padding:3px 9px;grid-column:2;justify-self:start;white-space:normal}
+.status-tag.restricted{color:#745126;background:#f1e7d6}
+.status-tag.unknown{color:#596048;background:#e8ebde}
+.status-tag.supported,.status-tag.changed{color:#3c6232;background:#e5eedc}
+.action-card{padding:15px 13px;gap:12px}
+.action-card strong{font-size:15px;line-height:1.7}
+.action-card p{font-size:14px;line-height:1.85;color:var(--text-body)}
+.action-card button{min-height:36px;color:#3f6035;text-align:left}
+.action-number{font-size:20px;color:#637753}
+.evidence-title{font-size:17px;line-height:1.65}
+.evidence-body{font-size:16px;line-height:1.95;color:#43593c;max-height:400px;scrollbar-color:#819274 transparent}
+.evidence-note{display:block}
+.source-open{color:#3c6030;min-height:44px}
+.receive-button{font-size:13px;min-height:42px;border-radius:var(--radius-control);color:#3f6035}
+.subtitle-bar{gap:13px;min-height:70px}
+.subtitle-tag{font-size:12px;color:#526648}
+.subtitle-bar p{font-size:17px;line-height:1.8;color:#3f5638}
+.playback{gap:10px;flex-wrap:wrap}
+.round-control{width:42px;height:42px;font-size:14px;flex-shrink:0}
+.mini-control{min-width:36px;min-height:40px;font-size:21px;color:#4d6640}
+.time{font-size:12px;min-width:38px;color:#516946}
+.restart{min-height:40px;color:#516946}
+.restart>span{font-size:12px}
+.playback input{flex:1;width:auto;min-width:70px}
+.playback input::-webkit-slider-thumb{width:14px;height:14px}
+.playback input::-moz-range-thumb{width:14px;height:14px}
+.record-hint{font-size:12px;color:#586b4d}
+/* Keep illustrative feature labels readable too. */
+.approach-grid h3{font-size:23px;line-height:1.6}
+.feature-visual{height:175px}
+.files-visual>span,.link-visual>span,.change-visual>span{font-size:12px;color:#4c6341;border-radius:9px}
+.files-visual>span{width:86px;height:98px}
+.files-visual b,.link-visual small,.change-visual b{font-size:12px;color:#536a48}
+.change-visual>span{padding:12px}
+.link-visual>span{padding:17px 13px}
+.change-visual>span:nth-child(2){color:#34592f}
+dialog{padding:30px}
+.dialog-close{width:40px;height:40px;line-height:1;display:grid;place-items:center;color:#526648}
+dialog pre{font-size:17px;line-height:1.95;color:#354e32}
+.dialog-meta,.dialog-footer{font-size:14px;line-height:1.85;color:#53684b;overflow-wrap:anywhere}
+/* On smaller laptops, move sources below the two reading columns. */
+@media(min-width:651px) and (max-width:1150px){
+ body:not(.recording) .workspace{grid-template-columns:minmax(220px,30%) minmax(0,1fr)}
+ body:not(.recording) .evidence-panel{grid-column:1/-1;border-left:0;border-top:1px solid var(--line);display:block}
+ body:not(.recording) .evidence-body{max-height:300px}
+ .case-opening{gap:30px}.case-split,.action-brief{gap:32px}
+ .hero-actions{gap:12px}.hero-actions .hero-replay{font-size:14px}
+ .intro-end{display:none}
+ .approach-grid{gap:22px}.approach-grid article+article{padding-left:22px}
+ .feature-visual{height:185px}.files-visual>span{width:68px;font-size:11px}.link-visual{gap:6px}.link-visual>span{padding:14px 9px}
+ .directory-card{padding:25px}.directory-card h3{font-size:27px}
+ .maintenance-panel{gap:30px}
+}
+/* Fullscreen stays edge-to-edge and keeps its own scrollable panels. */
+body.recording .theater{border-radius:0}
+body.recording .material-card strong{font-size:15px!important}
+body.recording .material-card small,body.recording .material-context p{font-size:13px!important;color:#52654a}
+body.recording .stage-lead,body.recording .story-bottom{font-size:16px!important;color:var(--text-body)}
+body.recording .clause-button{font-size:16px!important}
+body.recording .check-row{grid-template-columns:112px minmax(0,1fr) auto!important}
+body.recording .check-name{font-size:14px!important}
+body.recording .check-value{font-size:16px!important}
+body.recording .check-row .status-tag{display:block!important;grid-column:auto;font-size:12px!important}
+body.recording .action-card strong{font-size:16px!important}
+body.recording .action-card p{font-size:15px!important;color:var(--text-body)}
+body.recording .action-card button,body.recording .result-line,body.recording .small-explanation,body.recording .update-dates,body.recording .evidence-date,body.recording .evidence-note{font-size:13px!important}
+body.recording .evidence-body{font-size:18px!important;color:#43593c}
+body.recording .source-open{font-size:14px!important}
+body.recording .subtitle-bar p{font-size:19px!important}
+body.recording .pill,body.recording .update-banner{font-size:12px!important}
+@media(max-width:900px){
+ body.recording .check-row{grid-template-columns:88px minmax(0,1fr)!important}
+ body.recording .check-row .status-tag{grid-column:2;font-size:12px!important}
+}
+@media(max-width:800px){
+ .directory-card{display:flex}.directory-type{width:auto;grid-column:auto}.directory-card p{margin:0 0 22px}.directory-card h3{margin:20px 0 14px}
+ .intro-band{display:block}.intro-band>span:first-child{display:block;margin-bottom:12px}
+ .rule-strip{display:block}.rule-strip>div{padding:24px 0}.rule-strip>div+div{border-left:0;border-top:1px solid #cfd8c2;padding-left:0}
+ .maintenance-table>div{grid-template-columns:100px 1fr}
+ .source-section{grid-template-columns:1fr;gap:28px}
+}
+@media(max-width:650px){
+ :root{--radius-panel:18px;--radius-card:15px;--radius-control:10px}
+ .hero-description,.opening-description,.case-text>p:not(.eyebrow),.rule-strip p,.lab-intro,.conditional-result>p,.planner-result>p,.action-brief>div>p:not(.eyebrow),.search-route>p,.filing-options p,.filing-options ul,.maintenance-intro>p:not(.eyebrow),.approach-grid p,.source-intro>p:not(.eyebrow){font-size:15px;line-height:1.9}
+ .case-opening{display:flex;flex-direction:column;align-items:stretch;gap:28px}
+ .directory-card{padding:25px 23px}.directory-card h3{font-size:28px}.directory-no{font-size:38px;right:21px}.directory-card p{font-size:15px}.directory-bottom{font-size:12px;min-height:54px}
+ .hero-actions{gap:9px 16px}.hero-actions .hero-replay{font-size:13px}
+ .hero-footnote{font-size:12px;line-height:1.8}
+ .section-heading>p{font-size:17px}.section-heading h2{font-size:32px}
+ .case-jumpbar{justify-content:flex-start;gap:17px;padding:10px 16px;overflow-x:auto;white-space:nowrap;font-size:13px}
+ .case-jumpbar a{flex-shrink:0}.case-jumpbar a:first-child{font-size:12px;padding-right:16px}
+ .case-masthead{font-size:12px;gap:10px 14px}.origin-badge{font-size:12px;margin-left:0}
+ .fact-ribbon{grid-template-columns:1fr 1fr;gap:20px 0}.fact-ribbon strong{font-size:20px}.fact-ribbon small{font-size:12px}
+ .fact-ribbon>div:nth-child(3){border-left:0;padding-left:0}
+ .business-question p{font-size:22px;line-height:1.75}
+ .case-split{grid-template-columns:1fr;gap:28px}.relationship-sheet{padding:24px 20px}.actor-token{width:42px;height:42px}
+ .relationship-row{align-items:flex-start}.relationship-row strong{font-size:15px}.relationship-row p{font-size:14px}
+ .relationship-connector{margin-left:20px;padding-left:34px}
+ .comparison-scroll{border-radius:12px}.case-comparison{min-width:720px;font-size:14px}
+ .evidence-lab,.registration-planner{padding:24px 18px}.lab-grid,.planner-grid{grid-template-columns:1fr;gap:24px}
+ .conditional-result,.planner-result{padding:22px 18px}.conditional-result h4,.planner-result h4{font-size:25px}
+ .simulation-badge{font-size:12px;white-space:normal}.subsection-heading{gap:15px}
+ .evidence-controls select{font-size:16px}.category-note{padding:15px}
+ .brief-grid{grid-template-columns:1fr;gap:8px}.brief-grid h4{font-size:23px}.brief-grid p{font-size:15px}
+ .action-brief{grid-template-columns:1fr;gap:26px}.action-brief ol{display:block}.action-brief li span{font-size:15px}
+ .filing-options{display:block}.filing-options article+article{padding:27px 0 0;border-left:0;border-top:1px solid #dad8c6}
+ .process-steps{grid-template-columns:1fr 1fr;gap:25px 20px}.process-steps p{font-size:14px}
+ .maintenance-panel{padding:25px 20px;grid-template-columns:1fr}.maintenance-table>div{grid-template-columns:1fr;gap:6px}.maintenance-table small{grid-column:1;font-size:14px}.maintenance-table>div>span{font-size:13px}.maintenance-table strong{font-size:20px}
+ .planner-actions{flex-direction:column;align-items:stretch}.planner-actions .button{width:100%}
+ .theater-top{align-items:flex-start;flex-wrap:wrap;padding:17px;gap:12px}.theater-tools{margin-left:auto;gap:12px}.project-identity strong{font-size:14px}.project-identity small{font-size:11px}.replay-badge{max-width:none;font-size:11px}.icon-button{min-width:36px;min-height:36px}
+ .chapter-nav{padding:0 8px}.chapter{flex:0 0 auto;font-size:13px;padding:15px 12px;gap:5px}.chapter>span{font-size:11px}
+ .workspace{display:flex;min-height:0}.material-panel{padding:20px 16px}.material-panel>.panel-label{font-size:14px}
+ .material-list{display:grid;grid-template-columns:1fr;gap:8px}.material-card{padding:12px}.material-card strong{font-size:14px}.material-card small{font-size:12px}.file-symbol{font-size:18px}
+ .original-record{font-size:12px;justify-content:space-between}
+ .analysis-panel{padding:24px 18px;min-height:0}.analysis-header{gap:10px}.stage-content h3{font-size:26px}.stage-lead{font-size:15px}.story-quote{font-size:25px}.story-bottom{font-size:14px}
+ .check-row{grid-template-columns:88px minmax(0,1fr);padding:13px 10px;gap:5px 9px}.check-row .check-name{font-size:13px}.check-row .check-value{font-size:14px}.check-row .status-tag{font-size:12px;padding:3px 7px}
+ .clause-button{font-size:14px;padding:14px 11px}.action-card{padding:15px 12px}.action-card strong{font-size:15px}.action-card p{font-size:14px}
+ .evidence-panel{display:block;padding:23px 18px}.evidence-panel .panel-label{font-size:14px}.evidence-body{font-size:16px;max-height:330px}.evidence-title{font-size:17px}.evidence-note{display:block}
+ .subtitle-bar{padding:16px;align-items:flex-start;gap:10px}.subtitle-bar p{font-size:16px}.subtitle-tag{font-size:11px;margin-top:4px}
+ .playback{padding:14px 12px;gap:5px}.round-control{width:38px;height:38px}.mini-control{min-width:30px}.time{font-size:12px;min-width:35px}.restart{min-width:32px}.restart>span{display:none}.total-time{display:none}
+ .approach-grid article{display:block;padding:28px 0}.approach-grid article+article{padding-left:0}.feature-visual{width:min(100%,320px);height:170px;margin:22px 0}.approach-grid h3{font-size:24px}.approach-grid p{max-width:none}
+ .files-visual>span{width:86px;font-size:12px}.link-visual>span{padding:18px;font-size:13px}.link-visual small,.files-visual b,.change-visual b{font-size:12px}
+ .source-entry{gap:10px}.source-group summary{font-size:15px}.source-group .source-entry strong{font-size:15px}.source-group .source-entry small{font-size:13px}
+ dialog{padding:23px 20px}dialog pre{font-size:16px}.dialog-header h2{font-size:24px}.dialog-meta,.dialog-footer{font-size:13px}
+ .closing>p:last-child{font-size:13px}.site-footer{font-size:12px;line-height:1.8;gap:16px}
+ .brand-hero .brand-note{width:282px;right:-5px;bottom:-19px}.brand-hero .brand-note small{font-size:12px}.brand-note strong{font-size:16px}.brand-note div>span{font-size:11px}
+ .brand-hero .route{font-size:13px;bottom:-49px}.brand-hero .art-coordinate{font-size:11px}.brand-sheet-heading small{font-size:12px}
+ body.recording .check-row{grid-template-columns:88px minmax(0,1fr)!important}
+ body.recording .check-row .status-tag{grid-column:2;font-size:12px!important}
+ body.recording .material-card strong{font-size:14px!important}body.recording .material-card small{font-size:12px!important}
+ body.recording .check-name{font-size:13px!important}body.recording .check-value{font-size:14px!important}
+ body.recording .stage-lead,body.recording .story-bottom{font-size:15px!important}
+ body.recording .clause-button{font-size:14px!important}
+ body.recording .evidence-body{font-size:16px!important;max-height:330px}
+ body.recording .evidence-title{font-size:17px!important}
+ body.recording .subtitle-bar p{font-size:16px!important}body.recording .record-hint{font-size:11px}
+}
